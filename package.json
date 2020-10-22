@@ -1,0 +1,19 @@
+{
+  "name": "socketio-simple-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Hunter M. Allen <allenhm@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^2.3.0"
+  }
+}
