@@ -37,9 +37,9 @@ $(function () {
   const addParticipantsMessage = (data) => {
     var message = "";
     if (data.numUsers === 1) {
-      message += "there's 1 participant";
+      message += "1 user chatting";
     } else {
-      message += "there are " + data.numUsers + " participants";
+      message += data.numUsers + " users chatting";
     }
     log(message);
   };
@@ -110,7 +110,7 @@ $(function () {
   // Adds the visual chat typing message
   const addChatTyping = (data) => {
     data.typing = true;
-    data.message = "is typing";
+    data.message = "is typing...";
     addChatMessage(data);
   };
 
