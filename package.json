@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "develop": "npx nodemon index.js"
+    "develop": "npx nodemon index.js",
+    "build" : "npm install"
   },
   "keywords": [],
   "author": "Hunter M. Allen <allenhm@gmail.com>",
